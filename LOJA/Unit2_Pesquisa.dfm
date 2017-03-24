@@ -1,0 +1,310 @@
+object Form2: TForm2
+  Left = 341
+  Top = 156
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Pesquisa'
+  ClientHeight = 498
+  ClientWidth = 908
+  Color = clGradientInactiveCaption
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 376
+    Top = 128
+    Width = 119
+    Height = 24
+    Caption = 'DESCRI'#199#194'O'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 344
+    Top = 216
+    Width = 190
+    Height = 24
+    Caption = 'CODIGO DE BARRA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 392
+    Top = 312
+    Width = 72
+    Height = 24
+    Caption = 'PRE'#199'O'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 240
+    Top = 8
+    Width = 392
+    Height = 37
+    Caption = 'PESQUISAR PRODUTOS'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 384
+    Top = 408
+    Width = 101
+    Height = 24
+    Caption = 'ESTOQUE'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 728
+    Top = 24
+    Width = 133
+    Height = 20
+    Caption = 'Produto Imagem'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 24
+    Width = 153
+    Height = 57
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    Visible = False
+  end
+  object Edit1: TEdit
+    Left = 240
+    Top = 64
+    Width = 217
+    Height = 37
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 472
+    Top = 74
+    Width = 75
+    Height = 25
+    Caption = 'PESQUISAR'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Memo2: TMemo
+    Left = 8
+    Top = 96
+    Width = 153
+    Height = 49
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    Visible = False
+  end
+  object Memo3: TMemo
+    Left = 8
+    Top = 160
+    Width = 153
+    Height = 49
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    Visible = False
+  end
+  object Memo4: TMemo
+    Left = 8
+    Top = 216
+    Width = 153
+    Height = 57
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+  end
+  object Button2: TButton
+    Left = 824
+    Top = 448
+    Width = 75
+    Height = 41
+    Caption = 'SALVAR '
+    TabOrder = 6
+    OnClick = Button2Click
+  end
+  object Edit2: TEdit
+    Left = 216
+    Top = 152
+    Width = 449
+    Height = 45
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Edit3: TEdit
+    Left = 216
+    Top = 248
+    Width = 449
+    Height = 45
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Edit4: TEdit
+    Left = 216
+    Top = 336
+    Width = 449
+    Height = 45
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Edit5: TEdit
+    Left = 216
+    Top = 432
+    Width = 449
+    Height = 45
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button3: TButton
+    Left = 736
+    Top = 448
+    Width = 75
+    Height = 41
+    Caption = 'ALTERAR'
+    Enabled = False
+    TabOrder = 11
+    Visible = False
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 8
+    Top = 352
+    Width = 75
+    Height = 25
+    Caption = 'descri'#231#227'o'
+    Enabled = False
+    TabOrder = 12
+    Visible = False
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 8
+    Top = 384
+    Width = 75
+    Height = 25
+    Caption = 'codigo'
+    Enabled = False
+    TabOrder = 13
+    Visible = False
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 8
+    Top = 424
+    Width = 75
+    Height = 25
+    Caption = 'pre'#231'o'
+    Enabled = False
+    TabOrder = 14
+    Visible = False
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 8
+    Top = 456
+    Width = 75
+    Height = 25
+    Caption = 'estoque'
+    Enabled = False
+    TabOrder = 15
+    Visible = False
+    OnClick = Button7Click
+  end
+  object Panel1: TPanel
+    Left = 688
+    Top = 64
+    Width = 209
+    Height = 249
+    Color = clSilver
+    TabOrder = 16
+    object Image1: TImage
+      Left = 8
+      Top = 8
+      Width = 193
+      Height = 233
+      Stretch = True
+    end
+  end
+end
